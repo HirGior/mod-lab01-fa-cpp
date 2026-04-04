@@ -8,6 +8,5 @@ int main() {
     std::cout << "faStr1: " << faStr1(str) << std::endl;
     std::cout << "faStr2: " << faStr2(str) << std::endl;
     std::cout << "faStr3: " << faStr3(str) << std::endl;
-    
     return 0;
 }
