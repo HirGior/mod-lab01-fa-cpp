@@ -7,7 +7,6 @@ unsigned int faStr1(const char *str) {
     unsigned int count = 0;
     bool inWord = false;
     bool hasDigit = false;
-    
     for (int  i = 0; str[i] != '\0'; i++) {
         if (str[i] != ' ') {
             if (!inWord) {
@@ -25,14 +24,12 @@ unsigned int faStr1(const char *str) {
         }
     }
     if (inWord && !hasDigit) count++;
-
     return count;
 }
 
 unsigned int faStr2(const char *str) {
     unsigned int count = 0;
     int i = 0;
-
     while (str[i] != '\0') {
         while (str[i] == ' ') i++;
 
